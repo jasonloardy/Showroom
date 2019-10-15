@@ -1,0 +1,14 @@
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\bin\Debug\Showroom.exe.config
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\bin\Debug\Showroom.exe
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\bin\Debug\Showroom.pdb
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\bin\Debug\Showroom.xml
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.Resources.resources
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.vbproj.GenerateResource.Cache
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.exe
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.xml
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.pdb
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormKendaraan.resources
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.vbprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormViewCR.resources
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormUtama.resources
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormLaporan.resources
