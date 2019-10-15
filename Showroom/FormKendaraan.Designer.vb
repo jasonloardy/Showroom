@@ -746,10 +746,11 @@ Partial Class FormKendaraan
         Me.Controls.Add(Me.gbinfokendaraan)
         Me.Controls.Add(Me.gbdaftarkendaraan)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "FormKendaraan"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form Kendaraan"
+        Me.Text = "Data Kendaraan"
         Me.gbdaftarkendaraan.ResumeLayout(False)
         Me.gbdaftarkendaraan.PerformLayout()
         CType(Me.dgvkendaraan, System.ComponentModel.ISupportInitialize).EndInit()

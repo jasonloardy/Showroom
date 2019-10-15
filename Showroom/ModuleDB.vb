@@ -69,13 +69,26 @@ Module ModuleDB
             MsgBox(ex.Message, 16, "Error")
         End Try
     End Sub
-    Sub QueryMaintenance(ByVal query As String, ByVal id_maintenance As String, ByVal deskripsi As String, ByVal nominal As String)
+    Sub QueryMaintenance(ByVal query As String, ByVal id_kendaraan As String, ByVal deskripsi As String, ByVal nominal As String)
         Try
             Using cmd As New OleDbCommand
                 cmd.CommandText = query
-                cmd.Parameters.AddWithValue("@id_maintenance", id_maintenance)
+                cmd.Parameters.AddWithValue("@id_kendaraan", id_kendaraan)
                 cmd.Parameters.AddWithValue("@deskripsi", deskripsi)
                 cmd.Parameters.AddWithValue("@nominal", nominal)
+                cmd.Connection = Conn
+                cmd.ExecuteNonQuery()
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message, 16, "Error")
+        End Try
+    End Sub
+
+    Sub QueryPassword(ByVal query As String, ByVal password As String)
+        Try
+            Using cmd As New OleDbCommand
+                cmd.CommandText = query
+                cmd.Parameters.AddWithValue("@password", password)
                 cmd.Connection = Conn
                 cmd.ExecuteNonQuery()
             End Using

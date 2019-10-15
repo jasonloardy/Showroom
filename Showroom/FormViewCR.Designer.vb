@@ -22,6 +22,7 @@ Partial Class FormViewCR
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormViewCR))
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.SuspendLayout()
         '
@@ -45,9 +46,10 @@ Partial Class FormViewCR
         Me.ClientSize = New System.Drawing.Size(1184, 561)
         Me.Controls.Add(Me.CrystalReportViewer1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormViewCR"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "FormViewCR"
+        Me.Text = "Preview Laporan"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
 

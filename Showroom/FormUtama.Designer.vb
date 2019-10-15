@@ -22,6 +22,7 @@ Partial Class FormUtama
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormUtama))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.DataKendaraanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -63,10 +64,11 @@ Partial Class FormUtama
         Me.ClientSize = New System.Drawing.Size(1284, 661)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "FormUtama"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "FormUtama"
+        Me.Text = "Aplikasi Showroom"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
