@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormLaporan
+Partial Class FormLapSeluruh
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class FormLaporan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormLaporan))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormLapSeluruh))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.dtp2 = New System.Windows.Forms.DateTimePicker()
@@ -53,7 +53,7 @@ Partial Class FormLaporan
         Me.GroupBox1.Size = New System.Drawing.Size(312, 111)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Pilih Periode :"
+        Me.GroupBox1.Text = "Periode Pembelian :"
         '
         'Label1
         '
@@ -150,7 +150,7 @@ Partial Class FormLaporan
         Me.btncetak.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btncetak.UseVisualStyleBackColor = True
         '
-        'FormLaporan
+        'FormLapSeluruh
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -160,9 +160,9 @@ Partial Class FormLaporan
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "FormLaporan"
+        Me.Name = "FormLapSeluruh"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Laporan"
+        Me.Text = "Laporan Seluruh"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)

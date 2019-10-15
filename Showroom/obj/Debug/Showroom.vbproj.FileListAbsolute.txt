@@ -11,6 +11,7 @@ C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug
 C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.vbprojResolveAssemblyReference.cache
 C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormViewCR.resources
 C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormUtama.resources
-C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormLaporan.resources
 C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormPassword.resources
 C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormLogin.resources
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormLapPenjualan.resources
+C:\Users\Jason\Documents\Visual Studio 2013\Projects\Showroom\Showroom\obj\Debug\Showroom.FormLapSeluruh.resources

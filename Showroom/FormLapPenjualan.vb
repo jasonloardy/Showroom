@@ -1,4 +1,4 @@
-﻿Public Class FormLaporan
+﻿Public Class FormLapPenjualan
     Sub cb_tahun()
         Dim q As String = "SELECT DISTINCT Year(tgl_jual) AS tahun from tbl_kendaraan"
         cbtahun2.DataSource = querycb(q)

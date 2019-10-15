@@ -92,6 +92,18 @@
       <DependentUpon>CRKendaraanCash.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CRSeluruh.vb">
+      <DependentUpon>CRSeluruh.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CRStok.vb">
+      <DependentUpon>CRStok.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="CRRekap.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -105,10 +117,16 @@
       <DependentUpon>FormKendaraan.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLaporan.Designer.vb">
-      <DependentUpon>FormLaporan.vb</DependentUpon>
+    <Compile Include="FormLapSeluruh.Designer.vb">
+      <DependentUpon>FormLapSeluruh.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormLaporan.vb">
+    <Compile Include="FormLapSeluruh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLapPenjualan.Designer.vb">
+      <DependentUpon>FormLapPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLapPenjualan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLogin.Designer.vb">
@@ -161,6 +179,14 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRKendaraanCash.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CRSeluruh.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRSeluruh.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRStok.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRStok.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRRekap.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRRekap.vb</LastGenOutput>
@@ -168,8 +194,11 @@
     <EmbeddedResource Include="FormKendaraan.resx">
       <DependentUpon>FormKendaraan.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLaporan.resx">
-      <DependentUpon>FormLaporan.vb</DependentUpon>
+    <EmbeddedResource Include="FormLapSeluruh.resx">
+      <DependentUpon>FormLapSeluruh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLapPenjualan.resx">
+      <DependentUpon>FormLapPenjualan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>

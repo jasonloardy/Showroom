@@ -88,6 +88,7 @@ Partial Class FormKendaraan
         Me.btnhapus = New System.Windows.Forms.Button()
         Me.btnedit = New System.Windows.Forms.Button()
         Me.btntambah = New System.Windows.Forms.Button()
+        Me.lblcount = New System.Windows.Forms.Label()
         Me.gbdaftarkendaraan.SuspendLayout()
         CType(Me.dgvkendaraan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbpenjualan.SuspendLayout()
@@ -101,6 +102,7 @@ Partial Class FormKendaraan
         '
         'gbdaftarkendaraan
         '
+        Me.gbdaftarkendaraan.Controls.Add(Me.lblcount)
         Me.gbdaftarkendaraan.Controls.Add(Me.Label1)
         Me.gbdaftarkendaraan.Controls.Add(Me.tbcari)
         Me.gbdaftarkendaraan.Controls.Add(Me.dgvkendaraan)
@@ -131,9 +133,9 @@ Partial Class FormKendaraan
         'dgvkendaraan
         '
         Me.dgvkendaraan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvkendaraan.Location = New System.Drawing.Point(6, 55)
+        Me.dgvkendaraan.Location = New System.Drawing.Point(6, 63)
         Me.dgvkendaraan.Name = "dgvkendaraan"
-        Me.dgvkendaraan.Size = New System.Drawing.Size(550, 576)
+        Me.dgvkendaraan.Size = New System.Drawing.Size(550, 568)
         Me.dgvkendaraan.TabIndex = 1
         '
         'gbpenjualan
@@ -731,6 +733,15 @@ Partial Class FormKendaraan
         Me.btntambah.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btntambah.UseVisualStyleBackColor = True
         '
+        'lblcount
+        '
+        Me.lblcount.Location = New System.Drawing.Point(152, 47)
+        Me.lblcount.Name = "lblcount"
+        Me.lblcount.Size = New System.Drawing.Size(378, 13)
+        Me.lblcount.TabIndex = 3
+        Me.lblcount.Text = "Label13"
+        Me.lblcount.TextAlign = System.Drawing.ContentAlignment.TopRight
+        '
         'FormKendaraan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -835,5 +846,6 @@ Partial Class FormKendaraan
     Friend WithEvents dtptgljual As System.Windows.Forms.DateTimePicker
     Friend WithEvents panelkredit As System.Windows.Forms.Panel
     Friend WithEvents panelcash As System.Windows.Forms.Panel
+    Friend WithEvents lblcount As System.Windows.Forms.Label
 
 End Class

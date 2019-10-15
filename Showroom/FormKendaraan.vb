@@ -27,6 +27,7 @@ Public Class FormKendaraan
                 juduldgvkendaraan()
             End If
         End With
+        totalkendaraan()
     End Sub
     Sub juduldgvkendaraan()
         With dgvkendaraan
@@ -39,14 +40,20 @@ Public Class FormKendaraan
             .Columns(2).HeaderText = "Merk / Tipe"
             .Columns(2).Width = 150
             .Columns(3).HeaderText = "Tahun"
-            .Columns(3).Width = 80
+            .Columns(3).Width = 50
             .Columns(4).HeaderText = "Warna"
-            .Columns(4).Width = 80
-            For i = 5 To 9
+            .Columns(4).Width = 70
+            For i = 5 To 6
+                .Columns(i).Visible = False
+            Next
+            .Columns(7).HeaderText = "Tgl. Beli"
+            .Columns(7).Width = 75
+            .Columns(7).DefaultCellStyle.Format = "dd/MM/yyyy"
+            For i = 8 To 9
                 .Columns(i).Visible = False
             Next
             .Columns(10).HeaderText = "Status"
-            .Columns(10).Width = 80
+            .Columns(10).Width = 50
             For i = 11 To 19
                 .Columns(i).Visible = False
             Next
@@ -55,6 +62,23 @@ Public Class FormKendaraan
             .ReadOnly = True
             .AllowUserToAddRows = False
         End With
+    End Sub
+    Sub totalkendaraan()
+        Dim ready As Integer
+        Dim sold As Integer
+        Dim all As Integer
+        With dgvkendaraan
+            For index As Integer = 0 To .RowCount - 1
+                If .Rows(index).Cells(10).Value = "READY" Then
+                    ready += 1
+                    all += 1
+                ElseIf .Rows(index).Cells(10).Value = "SOLD" Then
+                    sold += 1
+                    all += 1
+                End If
+            Next
+        End With
+        lblcount.Text = "Ready : " & ready & " unit          Sold : " & sold & " unit          Total : " & all & " unit"
     End Sub
     Sub isidgvmaintenance()
         Dim query As String = "SELECT * FROM tbl_maintenance WHERE id_kendaraan = " & id_data

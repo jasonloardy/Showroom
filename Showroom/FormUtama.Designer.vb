@@ -26,6 +26,9 @@ Partial Class FormUtama
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.DataKendaraanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DataStokToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DataPenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DataSeluruhToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingPasswordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -47,9 +50,28 @@ Partial Class FormUtama
         '
         'LaporanToolStripMenuItem
         '
+        Me.LaporanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DataStokToolStripMenuItem, Me.DataPenjualanToolStripMenuItem, Me.DataSeluruhToolStripMenuItem})
         Me.LaporanToolStripMenuItem.Name = "LaporanToolStripMenuItem"
-        Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
-        Me.LaporanToolStripMenuItem.Text = "Laporan"
+        Me.LaporanToolStripMenuItem.Size = New System.Drawing.Size(89, 20)
+        Me.LaporanToolStripMenuItem.Text = "Data Laporan"
+        '
+        'DataStokToolStripMenuItem
+        '
+        Me.DataStokToolStripMenuItem.Name = "DataStokToolStripMenuItem"
+        Me.DataStokToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
+        Me.DataStokToolStripMenuItem.Text = "Data Stok"
+        '
+        'DataPenjualanToolStripMenuItem
+        '
+        Me.DataPenjualanToolStripMenuItem.Name = "DataPenjualanToolStripMenuItem"
+        Me.DataPenjualanToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
+        Me.DataPenjualanToolStripMenuItem.Text = "Data Penjualan"
+        '
+        'DataSeluruhToolStripMenuItem
+        '
+        Me.DataSeluruhToolStripMenuItem.Name = "DataSeluruhToolStripMenuItem"
+        Me.DataSeluruhToolStripMenuItem.Size = New System.Drawing.Size(153, 22)
+        Me.DataSeluruhToolStripMenuItem.Text = "Data Seluruh"
         '
         'SettingPasswordToolStripMenuItem
         '
@@ -80,4 +102,7 @@ Partial Class FormUtama
     Friend WithEvents DataKendaraanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LaporanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SettingPasswordToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DataStokToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DataPenjualanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DataSeluruhToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class
